@@ -3046,6 +3046,7 @@ a.readmore > span {
   /* margin-bottom: -30rem; */
 }
 
+
 .footer-main {
   padding: 60px 0 60px;
   background-color: #1b1d1c;
@@ -6026,6 +6027,31 @@ aside:hover header h1 {
   border-radius: 1rem;
 }
 
+.journey-text{
+  margin-right: -5.5rem;
+  position: relative;
+  z-index: 1;
+  background-color: whitesmoke;
+  padding: 3rem;
+  margin-top: 90px;
+  border-radius: 0.975rem;
+}
+
+@media (max-width: 750px) {
+  .about-text {
+    width: 90vw;
+  }
+  .journey-img{
+    display: none;
+  }
+  .journey-text{
+    margin-right: 3rem;
+    margin-top: 0;
+    padding: 3rem;
+    padding-left: 3rem;
+  }
+}
+
 .about-text h2 {
   font-size: 2.5rem;
 }
@@ -6406,7 +6432,30 @@ textarea::-webkit-scrollbar-thumb {
   }
 }
 
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+  padding: 10px;
+}
+
+.grid-box {
+  width: 40vw;
+}
+
+@media (max-width: 900px){
+  .grid-box{
+    width: 80vw;
+  }
+  .grid-container{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media (max-width: 425px) {
+  .grid-container{
+    grid-template-columns: 1fr 0fr;
+  }
   .wave {
     height: 23vh;
     width: 150vw;
