@@ -6460,7 +6460,7 @@ textarea::-webkit-scrollbar-thumb {
 
 @media (max-width: 425px) {
   #myVideo {
-    height: auto;
+    height: 30vh;
     /* width:100%; */
   }
   .summary-box{
@@ -6520,6 +6520,10 @@ textarea::-webkit-scrollbar-thumb {
     align-items: end !important;
   }
 
+  .journey-side-data{
+    padding-left: 0rem !important;
+  }
+
   .waterfall{
     margin-left: 4rem !important;
   }
@@ -6528,7 +6532,7 @@ textarea::-webkit-scrollbar-thumb {
     margin-left:3rem;
     margin-right:3rem;
     width: 90vw;
-    margin-top: -20rem !important;
+    margin-top: -10rem !important;
   }
 
   .contact form #submit-btn {
